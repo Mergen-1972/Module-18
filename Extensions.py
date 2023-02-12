@@ -7,7 +7,7 @@ from Config import api_key
 bot=telebot.TeleBot(TOKEN)
 class ConvertionException(Exception):
     pass
-url=(https://www.yobit.net/ru/api/convert)
+url=(https://api.exchangeratesapi.io/v1/convert)
 
 
 class CurrencyChanger:
