@@ -1,6 +1,6 @@
 
 
-
+api_key=API KEY 
 
 
 TOKEN = "5976734427:AAGWfMYZ2e_pHyz5J0kQa12hfpvbQjb6Xhk"
