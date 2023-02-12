@@ -49,7 +49,7 @@ class CurrencyChanger:
         quote_ticker, base_ticker = keys[quote], keys[base]
 
 
-        r = request.get(f'(url) ,headers= api_key, quote=(keys[quote_ticker] & base = (keys[base_ticker]')
+        r = request.get(f'(url) , (api_key), quote=(keys[quote_ticker] & base = (keys[base_ticker]')
 
         total_base = json.loads(r.content)[keys[base]]
 
