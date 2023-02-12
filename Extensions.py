@@ -6,7 +6,7 @@ from Config import keys
 bot=telebot.TeleBot(TOKEN)
 class ConvertionException(Exception):
     pass
-
+url=(https://www.yobit.net/ru/api/convert)
 
 
 class CurrencyChanger:
@@ -48,7 +48,7 @@ class CurrencyChanger:
         quote_ticker, base_ticker = keys[quote], keys[base]
 
 
-        r = request.get(f'https://api.apilayer.com/exchangerates_data/live?fsym = (keys[quote_ticker] & tsyms = (keys[base_ticker]')
+        r = request.get(f'(url) ,headers= api_key, quote=(keys[quote_ticker] & base = (keys[base_ticker]')
 
         total_base = json.loads(r.content)[keys[base]]
 
